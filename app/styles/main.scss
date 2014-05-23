@@ -69,9 +69,9 @@ body, h1, h2, h3, h4, h5, h6 {
 .spacer {
   margin: 3em 0;
 }
+
 .jumbotron {
   background: #f0f0f0;
-  /*background-image: url(../images/stock-mba1.jpg);*/
   background-image: url(../images/navio.jpg);
   background-size: 100%;
   background-position: center center;
@@ -103,12 +103,14 @@ body, h1, h2, h3, h4, h5, h6 {
   line-height: 1.4em;
   max-width: 50%;
 }
+
 footer {
   background: #111;
   color: #fff;
   padding: 1.2em 0 0.6em;
   margin-top: 3em;
 }
+
 @media screen and (max-width: 1200px) {
   .jumbotron {
     height: 350px;

@@ -15,11 +15,7 @@ angular
       })
       .when('/horarios', {
         templateUrl: 'views/horarios.html',
-        controller: 'MainCtrl'
-      })
-      .when('/contato', {
-        templateUrl: 'views/contato.html',
-        controller: 'MainCtrl'
+        controller: 'HorariosCtrl'
       })
       .otherwise({
         redirectTo: '/'
